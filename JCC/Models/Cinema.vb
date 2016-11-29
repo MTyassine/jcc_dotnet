@@ -5,5 +5,5 @@ Namespace JCC.Models
     Public int id {Get;Set;}
     Public String Nom{Get; Set;}
     Public String Localisation{Get; Set;}
-
+    Public virtual ICollection<Projection> Projections { Get; Set; }
             }

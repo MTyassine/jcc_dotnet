@@ -6,6 +6,6 @@ Namespace JCC.Models
     Public String Nom{Get; Set;}
     Public String realisateur{Get; Set;}
     Public String origine{Get; Set;}
-
+    Public virtual ICollection<Projection> Projections { Get; Set; }
 
             }
