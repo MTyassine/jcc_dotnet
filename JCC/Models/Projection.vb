@@ -8,5 +8,6 @@ Namespace JCC.Models
     Public Time horaire{Get; Set;}
     Public virtual Cinema Cinema { Get; Set; }
     Public virtual Film Film{ Get; Set; }
+            Public virtual ICollection<Ticket> Ticket { Get; Set; }
 
             }
